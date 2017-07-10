@@ -1,0 +1,99 @@
+/** PICTURE **/
+
+
+.profileimage {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+
+
+/** GENERAL **/
+
+.wrapper {
+    background-color: white;
+    width: 90%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: maroon;
+}
+
+
+
+/** headers **/
+h1 {
+    font-family: 'Zilla Slab', serif;
+    color: cadetblue;
+}
+
+h2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: cadetblue;
+}
+
+h3 {
+    color: cadetblue;
+    font-family: "times-new-roman";
+    font-weight: bold;
+}
+
+
+
+/** PARAGRAPHS/ARTICLES **/
+p {
+    font-family: 'Inconsolata', monospace;
+    color: goldenrod;
+    padding-left: 10%;
+}
+
+.sites {
+    width: 100%;
+    background-color: goldenrod;
+}
+
+.sites a {
+    color: maroon;
+    padding-left: 10%;
+}
+
+article.a {
+    border: solid goldenrod 4px;
+    border-radius: 5%;
+    float: left;
+    width: 40%;
+    margin: 2%;
+    
+}
+
+article.b {
+    border: solid goldenrod 4px;
+    border-radius: 5%;
+    float: right;
+    width: 40%;
+    margin: 2%;
+    
+}
+
+article p {
+    padding-left: 10%;
+}
+
+
+
+/** FOOTER **/
+footer {
+    background-color: goldenrod;
+    width: 100%;
+    text-align: center;
+    clear: both;
+    font-size: 1.3em;
+}
+
+footer a {
+    margin-left: 15px;
+    color: maroon;
+}
+
