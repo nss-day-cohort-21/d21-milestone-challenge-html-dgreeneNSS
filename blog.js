@@ -1,19 +1,20 @@
-var posts = [
+let posts = [
     {
         title: "First Post",
         copy: "content",
         date: "06/09/2017"
     },
     {
-        title: "First Post",
+        title: "Second Post",
         copy: "content",
         date: "06/09/2017"
     }
 ];
 
-console.log("posts", posts);
 
-let title = "<h1>" + posts[0].title + "</h1>";
+let page = document.getElementById("posts");
+posts.forEach(function(item){
+    page.innerHTML+=`<li>${(item.title + item.copy + item.date)}</li>`;
+});
 
-let postHolder = document.getElementById("posts");
-postHolder.innerHTML += title;
+
